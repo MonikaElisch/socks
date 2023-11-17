@@ -5,7 +5,6 @@
 1. The server prints an ID and the values x and y  it receives, and computes x + y
 1. The server then sends the result back to the client.
 1. Upon receiving the result, the client prints an ID, current date and time, and the result.
-
 ###TCP
 **Server**
 _Bind socket to a (IP, Port)
