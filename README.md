@@ -12,7 +12,7 @@
 + Wait to accept a connection from a client → `accept()`
 + Close connection via `close()`
 
-** Client**
+**Client**
 + Connect to server at (IP, Port) → `connect()`
 + Send request →  `send()`
 + Wait for response → `recv()`
