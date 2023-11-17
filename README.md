@@ -7,21 +7,21 @@
 1. Upon receiving the result, the client prints an ID, current date and time, and the result.
 ### TCP
 **Server**
-_Bind socket to a (IP, Port)
-_Listen via `listen()`
-_Wait to accept a connection from a client → `accept()`
-_Close connection via `close()` 
+-Bind socket to a (IP, Port)
+-Listen via `listen()`
+-Wait to accept a connection from a client → `accept()`
+-Close connection via `close()` 
 ** Client**
-_Connect to server at (IP, Port) → `connect()`
-_Send request →  `send()`
-_Wait for response → `recv()`
+-Connect to server at (IP, Port) → `connect()`
+-Send request →  `send()`
+-Wait for response → `recv()`
 ### UDP
 **Server**
-_No `listen()`
-_No `accept()`
-_No need `close()`
+-No `listen()`
+-No `accept()`
+-No need `close()`
 **Client**
-_No `connect()`
-_Send request →  `sendto()`
-_Wait for response → `recvfrom()`
-_Close socket instead via `close()` 
+-No `connect()`
+-Send request →  `sendto()`
+-Wait for response → `recvfrom()`
+-Close socket instead via `close()` 
