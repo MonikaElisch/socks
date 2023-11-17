@@ -5,17 +5,17 @@
 1. The server prints an ID and the values x and y  it receives, and computes x + y
 1. The server then sends the result back to the client.
 1. Upon receiving the result, the client prints an ID, current date and time, and the result.
-###TCP
+### TCP
 **Server**
 _Bind socket to a (IP, Port)
 _Listen via `listen()`
 _Wait to accept a connection from a client → `accept()`
 _Close connection via `close()` 
-**Client**
+** Client**
 _Connect to server at (IP, Port) → `connect()`
 _Send request →  `send()`
 _Wait for response → `recv()`
-###UDP
+### UDP
 **Server**
 _No `listen()`
 _No `accept()`
