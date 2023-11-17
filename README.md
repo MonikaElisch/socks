@@ -10,7 +10,8 @@
 + Bind socket to a (IP, Port)
 + Listen via `listen()`
 + Wait to accept a connection from a client → `accept()`
-+ Close connection via `close()` 
++ Close connection via `close()`
+
 ** Client**
 + Connect to server at (IP, Port) → `connect()`
 + Send request →  `send()`
@@ -20,6 +21,7 @@
 + No `listen()`
 + No `accept()`
 + No need `close()`
+
 **Client**
 + No `connect()`
 + Send request →  `sendto()`
